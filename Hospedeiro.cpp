@@ -1,4 +1,4 @@
-#include "Hospedeiro.h"
+#include "Hospedeiro.h"//alou
 
 Hospedeiro::Hospedeiro(int endereco, Roteador* gateway) :  No(endereco) {
     this->gateway = gateway;
