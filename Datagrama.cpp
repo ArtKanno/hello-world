@@ -1,4 +1,4 @@
-#include "Datagrama.h"
+#include "Datagrama.h"//alou
 #include <iostream>
 
 Datagrama::Datagrama(int origem, int destino, int ttl, Segmento* dado)
@@ -12,7 +12,7 @@ Datagrama::Datagrama(int origem, int destino, int ttl, Segmento* dado)
 Datagrama::~Datagrama()
 {
     delete dado;
-    cout << "Datagrama destruído" << endl;
+    cout << "Datagrama destruÃ­do" << endl;
 }
 int Datagrama::getOrigem()
 {
